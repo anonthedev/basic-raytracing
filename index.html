@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Raytracing</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      @media only screen and (max-width: 768px) {
+        canvas{
+            height: 350px;
+            width: 350px;
+        }
+      }
+    </style>
+  </head>
+  <body style="background-color: #121212">
+    <canvas style="border: 1px solid black" id="canvas" width="600" height="600"></canvas>
+  </body>
+  <script src="script.js"></script>
+</html>
